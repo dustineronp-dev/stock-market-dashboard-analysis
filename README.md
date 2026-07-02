@@ -1,48 +1,39 @@
-# 📈 Stock Market Board Analysis
+# 📈 Stock Market Performance & Volatility Analysis
 
-A personal project focused on analyzing stock market data using **Python**, **SQL**, and data analysis techniques. This repository serves as both a learning journal and a collection of practical projects as I continue developing my skills in data analytics.
+Analysis of 5 years (2013–2018) of daily stock price data for six major companies — Apple, Amazon, Microsoft, Google, Netflix, and JPMorgan — using SQL and Python to explore growth, volatility, and the risk-return relationship between them.
 
-## 🎯 Project Goals
+## 🔑 Key Findings
 
-- Practice data analysis using real-world stock market data.
-- Improve SQL skills through data extraction, transformation, and querying.
-- Learn Python libraries commonly used in data analytics.
-- Explore trends, patterns, and market insights through visualization.
-- Build a portfolio of analysis projects for future reference and career growth.
+- **Netflix delivered the highest growth (923%) and the highest volatility (2.74% average daily swing)** of the six stocks analyzed, while **JPMorgan showed the most stable price behavior (1.28% volatility) but the lowest growth (132%)** — consistent with the classic risk-return tradeoff seen across financial markets.
+- Despite having a lower share price than Amazon or Google, **Apple had by far the highest trading volume (~54M shares/day)** — a reflection of shares outstanding rather than company value.
+- Raw price-based comparisons can be misleading: Amazon and Google had the highest absolute closing prices, but Netflix outpaced both in percentage growth by starting from a much lower base.
 
-## 🛠️ Technologies
+## 🛠️ Tools & Skills Used
 
-- Python
-- SQL
-- Pandas
-- NumPy
-- Matplotlib
-- Jupyter Notebook
-- Git & GitHub
+- **SQL** (SQLite / DB Browser) — data querying, joins, subqueries, aggregate analysis
+- **Python** (pandas) — data cleaning, daily return calculation, rolling averages, volatility (standard deviation)
+- **Power BI** — interactive dashboard *(in progress)*
+- Git & GitHub for version control
 
-## 📚 What You'll Find
+## 📊 Dataset
 
-This repository may include:
+[S&P 500 stock data (Kaggle)](https://www.kaggle.com/datasets/camnugent/sandp500) — daily OHLCV price data, 2013–2018, for all S&P 500 companies. This analysis focuses on a subset of 6 tickers: AAPL, AMZN, MSFT, GOOGL, NFLX, JPM.
 
-- Data cleaning and preprocessing
-- Exploratory Data Analysis (EDA)
-- SQL queries and database exercises
-- Stock market trend analysis
-- Data visualization
-- Statistical analysis
-- Personal experiments and mini-projects
-- Learning notes and documentation
+*(Raw data files are not included in this repo — download from the Kaggle link above to reproduce.)*
 
-## 🚀 Purpose
+## 📁 Project Structure
 
-This repository is not intended to provide financial advice or predict stock prices. Its primary purpose is to document my progress while learning data analysis and applying newly acquired skills to real-world datasets.
+- `stock_analysis.ipynb` — main analysis notebook: data loading, cleaning, daily returns, volatility, moving averages
+- `sql_queries.sql` — SQL exploration queries *(add this if you want to save your SQL work too)*
+- Power BI dashboard — *(coming soon)*
 
-As my knowledge grows, this repository will continue to evolve with more advanced analyses, improved coding practices, and additional projects.
+## 🚀 About This Project
+
+This is a self-directed learning project built while transitioning into data analytics after graduating with a BS in Computer Science. It's part of an ongoing portfolio documenting my progress from SQL/Python fundamentals through to dashboard-building.
 
 ## 📌 Status
 
-🟢 Active — Continuously updated as I learn new concepts and complete new analyses.
+🟢 Active — currently building out the Power BI dashboard as the next step.
 
 ---
-
-*"Learning by building, analyzing, and continuously improving."*
+*Built as part of a self-directed data analytics learning path.*
