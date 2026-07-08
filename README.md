@@ -17,7 +17,7 @@ Analysis of 5 years (2013–2018) of daily stock price data for six major compan
 
 Built in Power BI using custom DAX measures for growth percentage and volatility (standard deviation of daily returns), cross-validated against the Python/pandas calculations to confirm accuracy.
 
-- 📄 [Full dashboard export (PDF)](dashboard_export.pdf)
+- 📄 [Full dashboard export (PDF)](stock_dashboard.pdf)
 - 📁 Power BI file: `stock_dashboard.pbix` (open with Power BI Desktop)
 
 ## 🛠️ Tools & Skills Used
